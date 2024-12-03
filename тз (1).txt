@@ -1,7 +1,17 @@
 
 1)разные животные (курицы, зайцы, свиньи итп);
 2)разные цены на животных и загоны, которые можно преобрести через магазин
-3)сначала дают 100долларов, можно купить две курицы и корм
+3)сначала дают 100 долларов, можно купить две курицы и корм
 4)один корм, который реализуется через шкалу
 5)кончаются деньги => заканчивается корм => нас съедают животные мы умираем
 6)модель прототипированная 
+
+
+1) interface Animal {bool health; int eat, bool pair, int price}
+
+2) interface Ferm {List<Animal> animals, int max_count_animalm}
+	
+3) class Manager(){List<Ferm> int money, int corm, int min_count_corm}
+
+4) class Shop() : Form
+{BuyAnimal(int index), BuyFerm(int index), CheckFerm(int index)}
